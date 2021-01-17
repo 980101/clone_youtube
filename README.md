@@ -1,5 +1,5 @@
-# clone_youtube
-유튜브를 클론 코딩 해보기
-( 유튜브 '드림코딩 by 엘리' 채널 예제 )
+# Clone Coding - Youtube
 
-font awesome, google fonts, mdn의 <video> 예제에 나오는 영상 사용
+※ 유튜브 '드림코딩 by 엘리' 채널 예제 참조
+
+resource : font awesome, google fonts, mdn의 <video> 예제 영상 사용
