@@ -66,6 +66,8 @@ header .icons .fa-search {
   margin-right: var(--padding);
 }
 
+/* Video Player and Video Info */
+
 /* Video Player */
 .player {
   text-align: center;
@@ -76,12 +78,6 @@ header .icons .fa-search {
   width: 100%;
   height: 100%;
   max-width: 900px;
-}
-
-/* Info And Upnext */
-.infoAndUpnext {
-  display: flex;
-  flex-direction: column;
 }
 
 /* Video Info */
@@ -216,8 +212,14 @@ header .icons .fa-search {
 }
 
 .upNext .item .moreBtn {
+  visibility: hidden;
   flex: 5;
   height: 100%;
+  color: var(--dark-grey-color);
+}
+
+.upNext .item .moreBtn.active {
+  visibility: visible;
 }
 
 .upNext .item .itemInfo {
@@ -240,13 +242,18 @@ header .icons .fa-search {
 }
 
 @media screen and (min-width: 700px) {
-  .infoAndUpnext {
-    flex-direction: row;
-    margin: var(--padding) 0;
+  .sectionPart {
+    display: flex;
+    padding: var(--padding) calc(var(--padding) * 2);
   }
 
-  .info,
   .upNext {
-    flex: 1;
+    flex: 45;
+  }
+
+  .playerAndInfo {
+    flex: 55;
+    display: flex;
+    flex-direction: column;
   }
 }
