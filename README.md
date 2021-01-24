@@ -1,4 +1,4 @@
-# Clone Coding _(youtube)_
+# 반응형 Youtube site clone coding _HTML&CSS_
 
 ※ 유튜브 '드림코딩 by 엘리' 채널 예제 참조
 
